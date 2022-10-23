@@ -1,0 +1,21 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+form h1 {
+    font-family: sans-serif;
+}
+
+form h2 {
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+    border-radius: 80px;
+    border: 1px solid black;
+}

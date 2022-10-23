@@ -236,7 +236,7 @@ const UsersList = () => {
       ];
     const renderUsers = users.map((user) => <User data={user}/>)
     return ( 
-        <div className="wrapper">
+        <div>
             <h1>Users</h1>
             {renderUsers}
         </div>

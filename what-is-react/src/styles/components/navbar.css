@@ -1,0 +1,10 @@
+nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 50px;
+}
+
+nav li {
+    margin-left: 20px;
+}

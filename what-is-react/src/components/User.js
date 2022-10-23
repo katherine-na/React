@@ -3,7 +3,7 @@ import React from "react";
 const User = (props) => {
     console.log(props);
     return ( 
-        <div className="user-item">
+        <div className="card">
             <p>{props.data.name}</p>
             <p>{props.data.email}</p>
             <p>{props.data.phone}</p>
